@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "firstName": "k",
+      "lastName": "o",
+      "email": "o",
+      "password": "ol",
+      "id": 1
+    },
+    {
+      "firstName": "f",
+      "lastName": "f",
+      "email": "ffef",
+      "password": "ffff",
+      "id": 2
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "adaf",
+      "password": "",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "Name": "produit 2",
+      "Price": "12.52",
+      "Quantity": "15",
+      "id": 2
+    }
+  ]
+}

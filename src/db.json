@@ -20,12 +20,40 @@
       "email": "adaf",
       "password": "",
       "id": 3
+    },
+    {
+      "firstName": "ahlem",
+      "lastName": "hafsouni",
+      "email": "ahlemhafsouni044@gmail.com",
+      "password": "1234456",
+      "id": 4
+    },
+    {
+      "firstName": "ahlem",
+      "lastName": "hafsouni",
+      "email": "ahlemhafsouni044@gmail.commm",
+      "password": "1234456",
+      "id": 5
+    },
+    {
+      "firstName": "ahlem",
+      "lastName": "hafsouni",
+      "email": "ahlemhafsouni044@gmail.co",
+      "password": "141414",
+      "id": 6
+    },
+    {
+      "firstName": "ahlem",
+      "lastName": "hafsouni",
+      "email": "ahlemhafsouni044gmail.com",
+      "password": "585",
+      "id": 7
     }
   ],
   "products": [
     {
       "Name": "produit 2",
-      "Price": "12.52",
+      "Price": "12.52555",
       "Quantity": "15",
       "id": 2
     }

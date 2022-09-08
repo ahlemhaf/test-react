@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import axios from 'axios'
+import { useNavigate } from 'react-router-dom'
 function Register() {
-
+  const navigate =useNavigate()
     const [register, setRegister] = useState({
         firstName: '',
         lastName: '',
@@ -18,7 +19,18 @@ function Register() {
 
     const handleSubmit = async () => {
         console.log(register);
-        await axios.post('http://localhost:3000/users', register)
+
+        const users = await axios.get('http://localhost:3000/users');
+        const trouve = await users.data.find((user) => user.email === register.email)
+        if (trouve !== undefined) {
+            alert('email deja utuliser')
+        }
+        else {
+            alert('email valid')
+            await axios.post('http://localhost:3000/users', register)
+            navigate('/products')
+        }
+
     }
 
     return (

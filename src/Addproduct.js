@@ -21,7 +21,7 @@ const handleChange =(e)=>{
 const handleSubmit=async() =>{
     const products =await axios.post('http://localhost:3000/Products',productForm)
     console.log(products);
-    {navigate (' /products' ) }
+    {navigate ('/products' ) }
 }
 
   return (

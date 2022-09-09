@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-function Menu() {
+function TodoList() {
   return (
-    <nav className="navbar navbar-expand-lg bg-success">
+    <nav className="navbar navbar-expand-lg bg-primary">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">Menu</Link>
+        <Link className="navbar-brand" to="/">Liste</Link>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -20,7 +20,7 @@ function Menu() {
             <Link className="nav-link" to="/login">Login</Link>
             </li>
             <li className="nav-item">
-            <Link className="nav-link" to="/products">Products</Link>
+            <Link className="nav-link" to="/liste">Liste</Link>
             </li>
             
             
@@ -32,4 +32,4 @@ function Menu() {
   )
 }
 
-export default Menu
+export default TodoList

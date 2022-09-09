@@ -1,60 +1,29 @@
 {
   "users": [
     {
-      "firstName": "k",
-      "lastName": "o",
-      "email": "o",
-      "password": "ol",
-      "id": 1
-    },
-    {
-      "firstName": "f",
-      "lastName": "f",
-      "email": "ffef",
-      "password": "ffff",
-      "id": 2
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "email": "adaf",
-      "password": "",
-      "id": 3
-    },
-    {
       "firstName": "ahlem",
       "lastName": "hafsouni",
       "email": "ahlemhafsouni044@gmail.com",
-      "password": "1234456",
-      "id": 4
+      "password": "123",
+      "id": 1
     },
     {
-      "firstName": "ahlem",
-      "lastName": "hafsouni",
-      "email": "ahlemhafsouni044@gmail.commm",
-      "password": "1234456",
-      "id": 5
-    },
-    {
-      "firstName": "ahlem",
-      "lastName": "hafsouni",
-      "email": "ahlemhafsouni044@gmail.co",
-      "password": "141414",
-      "id": 6
-    },
-    {
-      "firstName": "ahlem",
-      "lastName": "hafsouni",
-      "email": "ahlemhafsouni044gmail.com",
-      "password": "585",
-      "id": 7
+      "firstName": "rihem",
+      "lastName": "inoubli",
+      "email": "ahlem.hafsouni@etudiant-fst.utm.tn",
+      "password": "0236",
+      "id": 2
     }
   ],
-  "products": [
+  "todo": [
     {
-      "Name": "produit 2",
-      "Price": "12.52555",
-      "Quantity": "15",
+      "Name": "TO-Do 1",
+      "Description": "bonne forme",
+      "id": 1
+    },
+    {
+      "Name": "TO-Do 2",
+      "Description": "mauvaise forme",
       "id": 2
     }
   ]

@@ -1,27 +1,28 @@
 import React from 'react'
 import './App.css';
 import {BrowserRouter as Router ,Routes, Route} from 'react-router-dom'
-import Register from './components/Register';
-import Menu from './components/Menu';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/js/dist/collapse'
-import Login from './components/Login';
-import Addproduct from './Addproduct';
-import Products from './components/Products';
-import Update from './components/Update';
+import Register from './Register';
+import Login from './Login';
+import Liste from './components/Liste';
+import TodoList from './TodoList';
+import Modif from './components/Modif';
+import Ajout from './components/Ajout';
+
 
 class App extends React.Component {
   render(){
   return (
     <div className="">
       <Router>
-        <Menu />
+        <TodoList />
         <Routes>
-        <Route path="/products" element={<Products/>}/>
+        <Route path="/liste" element={<Liste/>}/>
         <Route  path="/register" element={<Register/>}/>
         <Route path="/login" element={<Login/>}/>
-        <Route path="/addproduct" element={<Addproduct/>}/>
-        <Route path="/update/:id" element={<Update/>}/>
+        <Route path="/modif/:id" element={<Modif/>}/>
+        <Route path="/ajout" element={<Ajout/>}/>
         </Routes>
       </Router>
     </div>
